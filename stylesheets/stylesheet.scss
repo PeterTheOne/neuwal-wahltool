@@ -1,0 +1,73 @@
+body
+{
+  margin: 0;
+  padding: 20px;
+}
+
+div.wrapper
+{
+  max-width: 960px;
+  margin: 0 auto;
+  display: none;
+}
+
+div.map
+{
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 54.21686746988%;
+
+  svg
+  {
+    position: absolute;
+    left: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+
+    path
+    {
+      stroke-width: 1;
+      stroke: darken(#ffffff, 10%);
+      fill: #ffffff;
+
+      &.oevp
+      {
+        fill: #000000;
+        stroke: darken(#000000, 10%);
+      }
+
+      &.spoe
+      {
+        fill: #cc0000;
+        stroke: darken(#cc0000, 10%);
+      }
+
+      &.fpoe
+      {
+        fill: #5566cc;
+        stroke: darken(#5566cc, 10%);
+      }
+
+      &.stronach
+      {
+        fill: #f8e925;
+        stroke: darken(#f8e925, 10%);
+      }
+
+      &.gruen
+      {
+        fill: #6ba325;
+        stroke: darken(#6ba325, 10%);
+      }
+    }
+  }
+}
+
+html.svg
+{
+  div.wrapper
+  {
+    display: block;
+  }
+}
