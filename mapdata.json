@@ -1,0 +1,282 @@
+[
+    {
+        "pollId": "burgenland",
+        "pollName": "Burgenland",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "kaernten",
+        "pollName": "Kärnten",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "niederoesterreich",
+        "pollName": "Niederösterreich",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "oberoesterreich",
+        "pollName": "Oberösterreich",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "salzburg",
+        "pollName": "Salzburg",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "steiermark",
+        "pollName": "Steiermark",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "tirol",
+        "pollName": "Tirol",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "vorarlberg",
+        "pollName": "Vorarlberg",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "wien",
+        "pollName": "Wien",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    },
+    {
+        "pollId": "tirol",
+        "pollName": "Tirol",
+        "countryId": "oesterreich",
+        "countryName": "Österreich",
+        "mediaDepartment": "Karmasin",
+        "pollDimension": 400,
+        "fluctuationRange": 3.5,
+        "pollDate": "13.03.2013",
+        "source": "http://oe24.at",
+        "link": "http://neuwal.com",
+        "results": [
+            {
+                "partyId": "spoe",
+                "partyName": "SPÖ",
+                "partyColor": "#CCFFFF",
+                "percentage": 40.0,
+                "mandates": 53
+            },
+            {
+                "partyId": "oevp",
+                "partyName": "ÖVP",
+                "partyColor": "#000000",
+                "percentage": 27.0,
+                "mandates": 53
+            }
+        ]
+    }
+]
