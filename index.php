@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0">
     <title>Austria</title>
-    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+      <link rel="stylesheet" href="stylesheets/stylesheet.css">
+      <link rel="stylesheet" href="stylesheets/map.css">
     <script src="javascripts/modernizr.js"></script>
   </head>
 <?php

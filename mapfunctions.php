@@ -45,17 +45,19 @@ function printList($mapData, $number = 5) {
   for ($i = 0; $i < 5; $i++) {
 ?>
     <li class="<?php echo $mapData[$i]->pollId; ?>">
-          <span class="pollInfo"><?php echo $mapData[$i]->pollDate . ' ' . $mapData[$i]->mediaDepartment . ' ' . $mapData[$i]->pollDimension; ?></span>
-          <span class="pollName"><?php echo $mapData[$i]->pollName; ?></span>
-          <ol class="results">
+          <div class="pollInfo"><?php echo $mapData[$i]->pollDate . ' ' . $mapData[$i]->mediaDepartment . ' (n=' . $mapData[$i]->pollDimension . ')'; ?></div>
+          <div class="pollData">
+              <span class="pollName"><?php echo $mapData[$i]->pollName; ?></span>
+              <ol class="results">
 <?php
             foreach ($mapData[$i]->results as $result) {
 ?>
-            <li class="<?php echo $result->partyId; ?>"><?php echo $result->percentage; ?></li>
+                <li class="<?php echo $result->partyId; ?>"><?php echo $result->percentage; ?></li>
 <?php
             }
 ?>
-          </ol>
+              </ol>
+          </div>
       </li>
 <?php
   }

@@ -1,0 +1,65 @@
+/* setup */
+html, body {
+    height:  100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+/* map & text */
+
+div.wrapper {
+    height: 100%;
+    margin-right: 330px;
+}
+
+div.map {
+    float: left;
+    width: 100%;
+}
+
+div.text {
+    float: right;
+    width: 330px;
+    margin-right: -330px;
+}
+
+/* text */
+
+ul#pollList {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#pollList li {
+    margin: 0 0 6px;
+}
+
+ol.results {
+    list-style: none outside none;
+    padding: 0;
+}
+
+ol.results li {
+    float: left;
+    width: 25px;
+}
+
+.pollInfo {
+    font-size: 10px;
+}
+
+span.pollName {
+    float: left;
+    width: 130px;
+    font-size: 18px;
+}
+
+div.pollData {
+    overflow: hidden;
+}
