@@ -23,6 +23,7 @@
       <p class="wahlwetter-header">Wahlwetter</p>
       <?php printList($mapData); ?>
     </div>
+    <div class="clear"></div>
   </div>
 
   </body>

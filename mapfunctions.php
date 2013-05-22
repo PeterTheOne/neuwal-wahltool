@@ -40,9 +40,10 @@ function printMap($highestPartyIds) {
 }
 
 // prints first 5-7 polls
-function printList($mapData, $number = 5) {
-  echo '<ul id="pollList">';
-  for ($i = 0; $i < 5; $i++) {
+function printList($mapData, $number = 10) {
+  echo '<ul class="pollList column-1">';
+  $halfNumber = round($number / 2) - 1;
+  for ($i = 0; $i < $number; $i++) {
 ?>
     <li class="<?php echo $mapData[$i]->pollId; ?>">
           <div class="pollInfo"><?php echo $mapData[$i]->pollDate . ' ' . $mapData[$i]->mediaDepartment . ' (n=' . $mapData[$i]->pollDimension . ')'; ?></div>
@@ -60,6 +61,11 @@ function printList($mapData, $number = 5) {
           </div>
       </li>
 <?php
+
+    if ($i == $halfNumber) {
+      echo '</ul>';
+      echo '<ul class="pollList column-2">';
+    }
   }
   echo '</ul>';
 }

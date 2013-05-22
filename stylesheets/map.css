@@ -1,42 +1,47 @@
 /* setup */
 html, body {
-    height:  100%;
     margin: 0;
     padding: 0;
 }
 
 body {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 966px;
+}
+
+.clear {
+    clear: both;
 }
 
 /* map & text */
 
-div.wrapper {
-    height: 100%;
-    margin-right: 330px;
+.wrapper {
+    background-color: lightsteelblue;
 }
 
 div.map {
+    position: relative;
+    top: 80px;
     float: left;
-    width: 100%;
+    width: 320px;
 }
 
 div.text {
-    float: right;
-    width: 330px;
-    margin-right: -330px;
+    float: left;
+    max-width: 640px;
 }
 
 /* text */
 
-ul#pollList {
+ul.pollList {
+    float: left;
     list-style: none outside none;
     margin: 0;
     padding: 0;
+    width: 320px;
 }
 
-ul#pollList li {
+ul.pollList li {
     margin: 0 0 6px;
 }
 
@@ -62,4 +67,78 @@ span.pollName {
 
 div.pollData {
     overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* todo: remove, is just for testing */
+    body {
+        max-width: 756px;
+    }
+
+    ul.pollList.column-2 {
+        display: none;
+    }
+
+    div.map {
+        top: 40px;
+        width: 378px;
+    }
+
+    div.text {
+        width: 378px;
+    }
+
+    ul.pollList {
+        width: 378px;
+    }
+}
+
+/* Mobile Landscape Size to Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* todo: remove, is just for testing */
+    body {
+        max-width: 420px;
+    }
+
+    /*ul.pollList.column-2 {
+        display: none;
+    }*/
+
+    div.map {
+        top: 0;
+        width: 100%;
+    }
+
+    div.text {
+        width: 100%;
+    }
+
+    ul.pollList {
+        width: 100%;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    /* todo: remove, is just for testing */
+    body {
+        max-width: 300px;
+    }
+
+    /*ul.pollList.column-2 {
+        display: none;
+    }*/
+
+    div.map {
+        top: 0;
+        width: 100%;
+    }
+
+    div.text {
+        width: 100%;
+    }
+
+    ul.pollList {
+        width: 100%;
+    }
 }

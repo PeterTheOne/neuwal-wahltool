@@ -23,32 +23,3 @@
         fill: #6ba325;
         stroke: #50791c; }
 
-
-
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 550px) {
-
-/*.wrapper {
-	max-width:none;
-	width: 100%;
-	padding-right: 0;
-	position: relative;
-}
-
-.map {
-	margin: 0 0 20px;
-	position: relative;
-	float:none;
-	width: 100%;  
-	display: block;
-}
-
-.text{
-	width: 100%;
-	position: relative;
-	top:auto;
-	right: auto;
-}*/
-
-}
