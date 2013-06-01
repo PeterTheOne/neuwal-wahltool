@@ -86,6 +86,7 @@ div.pollData {
 
     div.text {
         width: 375px;
+        max-width: none;
     }
 
     ul.pollList {
