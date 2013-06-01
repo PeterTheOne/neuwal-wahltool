@@ -21,7 +21,7 @@
 
     <div class="text">
       <p class="wahlwetter-header">Wahlwetter</p>
-      <?php printList($mapData); ?>
+      <?php printList($mapData, 10, 7); ?>
     </div>
     <div class="clear"></div>
   </div>
