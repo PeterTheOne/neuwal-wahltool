@@ -69,10 +69,10 @@ div.pollData {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 750px) and (max-width: 959px) {
     /* todo: remove, is just for testing */
     body {
-        max-width: 756px;
+        max-width: 750px;
     }
 
     ul.pollList.column-2 {
@@ -81,20 +81,20 @@ div.pollData {
 
     div.map {
         top: 40px;
-        width: 378px;
+        width: 375px;
     }
 
     div.text {
-        width: 378px;
+        width: 375px;
     }
 
     ul.pollList {
-        width: 378px;
+        width: 375px;
     }
 }
 
 /* Mobile Landscape Size to Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 420px) and (max-width: 749px) {
     /* todo: remove, is just for testing */
     body {
         max-width: 420px;
@@ -119,7 +119,7 @@ div.pollData {
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 419px) {
     /* todo: remove, is just for testing */
     body {
         max-width: 300px;
@@ -140,5 +140,9 @@ div.pollData {
 
     ul.pollList {
         width: 100%;
+    }
+
+    span.pollName {
+        width: 120px
     }
 }
